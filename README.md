@@ -33,19 +33,19 @@ Before using the dataset the dataset was pre-processed using Python languge whic
       There are 2 entries with Age value above 80, which are considered as the upper outliers.
       These 8 entries account for 0.64% of the total count of entries in the dataframe.
       
-    2. Gender
+     2. Gender
       There are 49 counts of unique value in the dataframe.
       The high count of genders in the dataframe is because there are many non-binary genders, as well as misspelling of the binary genders.
-    
-    3. Country
+      
+     3. Country
       There are 48 counts of unique value in the dataframe.
       Many countries only have a count value of below 10.
-    
-    4. State
+      
+     4. State
       State feature has a high missing value percentage, because most of countries outside of US do not have any state. making this feature irrelevant to them.
       Out of the entries inside US, 11 entries (0.87% of the total entries in the dataframe) have missing value in their State feature.
       There are 4 entries outside of US that have a value in their State feature. Each of them only has a count value of 1.
-    
-    5. Number of Employees
+      
+     5. Number of Employees
       The values in Number of Employees feature show a range of number.
-      Their format is not uniform and some of them contain special character, such as "-" that can be misinterpreted as a delimiter when the data is exported to           other type of file.
+      Their format is not uniform and some of them contain special character, such as "-" that can be misinterpreted as a delimiter when the data is exported to other type of file.
