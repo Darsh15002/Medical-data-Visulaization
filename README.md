@@ -13,4 +13,4 @@ Before using the dataset the dataset was pre-processed using Python languge whic
   3. All features except for Timestamp and Age have nominal categorical data type.
   4. There is no data validation in the Comments feature.
   
-  ##Missig Values
+  #Missig Values
